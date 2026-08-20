@@ -248,7 +248,7 @@ const en: Dict = {
   "addAgent.namePlaceholder": "Name (optional)",
   "addAgent.taskPlaceholder": "What should it work on? (optional)",
   "addAgent.launch": "Launch in this folder",
-  "addAgent.launchHint": "Starts the runtime in the folder, wired to Beacon. It shows up as a contact you can message.",
+  "addAgent.launchHint": "Starts the runtime in the folder, wired to OpenChat. It shows up as a contact you can message.",
   "contactsView.agents": "Agents · {n}",
   "contactsView.empty": "No agents yet.",
   "contactsView.showArchived": "Archived ({n})",
@@ -326,7 +326,7 @@ const en: Dict = {
   "info.capabilities": "Capabilities",
   "info.pathNotSet": "— path not set",
   "info.copyWorkPath": "Copy work path",
-  "info.footer": "This agent talks to you through Beacon.",
+  "info.footer": "This agent talks to you through OpenChat.",
 
   "app.pick.title": "Pick a conversation",
   "app.pick.desc": "Select an agent on the left to read or reply.",
@@ -350,7 +350,7 @@ const en: Dict = {
   "connect.capabilities": "Capabilities:",
   "connect.mcp.recommended": "Recommended · one global command",
   "connect.mcp.httpHint":
-    "Run it once. -s user makes it global across every project, and the command never changes when Beacon updates — the URL is the contract. Restart Claude Code and beacon shows up in /mcp.",
+    "Run it once. -s user makes it global across every project, and the command never changes when OpenChat updates — the URL is the contract. Restart Claude Code and the beacon connector shows up in /mcp.",
   "connect.mcp.localTitle": "Local (advanced) — run the MCP server yourself",
   "connect.mcp.jsonTitle": "Or drop this into a project’s .mcp.json",
   "connect.mcp.tools": "Available tools:",
@@ -599,7 +599,7 @@ const zh: Dict = {
   "addAgent.namePlaceholder": "名称(可选)",
   "addAgent.taskPlaceholder": "让它做什么?(可选)",
   "addAgent.launch": "在此目录拉起",
-  "addAgent.launchHint": "在该目录启动运行时并接好 Beacon,随后作为联系人出现、可直接对话。",
+  "addAgent.launchHint": "在该目录启动运行时并接好 OpenChat,随后作为联系人出现、可直接对话。",
   "contactsView.agents": "智能体 · {n}",
   "contactsView.empty": "还没有智能体。",
   "contactsView.showArchived": "已归档（{n}）",
@@ -677,7 +677,7 @@ const zh: Dict = {
   "info.capabilities": "能力",
   "info.pathNotSet": "— 未设置路径",
   "info.copyWorkPath": "复制工作路径",
-  "info.footer": "该 Agent 通过 Beacon 与你通信。",
+  "info.footer": "该 Agent 通过 OpenChat 与你通信。",
 
   "app.pick.title": "选择一个会话",
   "app.pick.desc": "在左侧选择一个 Agent 查看或回复。",
@@ -700,7 +700,7 @@ const zh: Dict = {
   "connect.capabilities": "能力：",
   "connect.mcp.recommended": "推荐 · 一行全局命令",
   "connect.mcp.httpHint":
-    "运行一次即可。-s user 让它对所有项目全局生效；Beacon 升级时命令也不会变 —— URL 就是契约。重启 Claude Code，beacon 就会出现在 /mcp 列表里。",
+    "运行一次即可。-s user 让它对所有项目全局生效；OpenChat 升级时命令也不会变 —— URL 就是契约。重启 Claude Code 后，beacon 连接器会出现在 /mcp 列表里。",
   "connect.mcp.localTitle": "本地方式（进阶）—— 自己运行 MCP server",
   "connect.mcp.jsonTitle": "或放进项目的 .mcp.json",
   "connect.mcp.tools": "可用工具：",

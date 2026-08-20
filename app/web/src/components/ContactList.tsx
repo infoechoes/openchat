@@ -143,7 +143,7 @@ export function ContactList({
           <div className="min-w-0">
             <div className="flex items-center gap-1.5">
               <div className="truncate text-sm font-semibold text-strong">
-                Beacon
+                OpenChat
               </div>
               {version && (
                 <span
@@ -153,7 +153,7 @@ export function ContactList({
                     background: "var(--surface-card)",
                     border: "1px solid var(--border)",
                   }}
-                  title={`Beacon v${version}`}
+                  title={`OpenChat v${version}`}
                 >
                   v{version}
                 </span>
